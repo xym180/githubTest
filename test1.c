@@ -6,7 +6,6 @@ void ShowRevertNum(int iNum)
 		printf("%d", iNum % 10);
  		iNum = iNum / 10;
  	}
- 	printf("%d\n", iNum);
 }
 int main(void)
 {
@@ -15,6 +14,7 @@ int main(void)
  	scanf("%d", &iNum);
  	printf("After revert : ");
  	ShowRevertNum(iNum);
+	return 0;
 }
 
 
